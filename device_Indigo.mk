@@ -78,8 +78,3 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 $(call inherit-product-if-exists, device/LENOVO/Indigo/gapps/copy.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_DEVICE := Indigo
-PRODUCT_NAME := lineage_Indigo
-PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := ThinkPadTablet
-PRODUCT_MANUFACTURER := LENOVO

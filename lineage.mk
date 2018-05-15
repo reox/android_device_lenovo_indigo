@@ -14,7 +14,10 @@ PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := ThinkPadTablet
 PRODUCT_MANUFACTURER := LENOVO
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=ThinkPadTablet BUILD_FINGERPRINT=Lenovo/ThinkPadTablet/Indigo:4.0.3/ThinkPadTablet_A400_03/0069_0130_WE:user/release-keys PRIVATE_BUILD_DESC="ventana-user 4.0.3 ThinkPadTablet_A400_03 0069_0130_WE release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+		PRODUCT_NAME=ThinkPadTablet \
+		BUILD_FINGERPRINT=Lenovo/ThinkPadTablet/Indigo:4.0.3/ThinkPadTablet_A400_03/0069_0130_WE:user/release-keys \
+		PRIVATE_BUILD_DESC="ventana-user 4.0.3 ThinkPadTablet_A400_03 0069_0130_WE release-keys"
 
 # Release name
 PRODUCT_RELEASE_NAME := Indigo

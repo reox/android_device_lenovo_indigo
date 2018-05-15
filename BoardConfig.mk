@@ -1,6 +1,6 @@
 #Camera
 USE_CAMERA_STUB := false
-COMMON_GLOBAL_CFLAGS += -DICS_CAMERA_BLOB
+#COMMON_GLOBAL_CFLAGS += -DICS_CAMERA_BLOB
 
 # Audio Build Options
 #BOARD_USES_GENERIC_AUDIO := false
@@ -9,7 +9,7 @@ COMMON_GLOBAL_CFLAGS += -DICS_CAMERA_BLOB
 #USE_PROPRIETARY_AUDIO_EXTENSIONS := true
 
 # Audio library
-COMMON_GLOBAL_CFLAGS += -DICS_AUDIO_BLOB
+#COMMON_GLOBAL_CFLAGS += -DICS_AUDIO_BLOB
 
 # inherit from the proprietary version
 -include vendor/LENOVO/Indigo/BoardConfigVendor.mk
