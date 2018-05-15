@@ -1,2 +1,0 @@
-lib/hw/gps.f5521gw.so
-lib/libmbm-ril.so
