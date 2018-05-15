@@ -20,6 +20,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=131072 \
     touch.enable=1
 
+# Screen size for boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+# Define screen size for prebuilt apps
+PRODUCT_AAPT_CONFIG := xlarge
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREBUILT_DPI := hdpi mdpi
+
+
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb
@@ -69,7 +79,7 @@ $(call inherit-product-if-exists, device/LENOVO/Indigo/gapps/copy.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_DEVICE := Indigo
-PRODUCT_NAME := cm_Indigo
+PRODUCT_NAME := lineage_Indigo
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := ThinkPadTablet
 PRODUCT_MANUFACTURER := LENOVO

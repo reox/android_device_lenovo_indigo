@@ -9,7 +9,7 @@ $(call inherit-product, device/LENOVO/Indigo/device_Indigo.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Indigo
-PRODUCT_NAME := cm_Indigo
+PRODUCT_NAME := lineage_Indigo
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := ThinkPadTablet
 PRODUCT_MANUFACTURER := LENOVO

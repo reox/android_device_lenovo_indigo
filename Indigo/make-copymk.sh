@@ -1,7 +1,9 @@
-DIR=$1;
+DIR="$1";
 
 
-rm $DIR/copy.mk;
+if [ -f "$DIR/copy.mk" ]; then
+    rm "$DIR/copy.mk"
+fi
 
 echo "PRODUCT_COPY_FILES += \\" >tmp.mk
 for i in `cd $DIR; find * -type f; cd ..`;
