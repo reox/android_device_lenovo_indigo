@@ -11,8 +11,6 @@ USE_CAMERA_STUB := false
 # Audio library
 #COMMON_GLOBAL_CFLAGS += -DICS_AUDIO_BLOB
 
-# inherit from the proprietary version
--include vendor/LENOVO/Indigo/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
@@ -22,14 +20,14 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a
-TARGET_ARCH_VARIANT_CPU := cortex-a9
+TARGET_CPU_VARIANT := cortex-a9
 TARGET_ARCH_VARIANT_FPU := vfpv3-d16
 TARGET_BOOTLOADER_BOARD_NAME := Indigo
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/LENOVO/Indigo
 TARGET_KERNEL_CONFIG := tpt_kernel_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 #TARGET_PREBUILT_KERNEL := device/LENOVO/Indigo/kernel
 
 NEED_WORKAROUND_CORTEX_A9_745320 := true

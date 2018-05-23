@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/etc/gps/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     $(LOCAL_PATH)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip \
     $(LOCAL_PATH)/usr/idc/N-trig_Multi_Touch.idc:system/usr/idc/N-trig_Multi_Touch.idc \
     $(LOCAL_PATH)/usr/idc/N-trig_Touch.idc:system/usr/idc/N-trig_Touch.idc \
     $(LOCAL_PATH)/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \

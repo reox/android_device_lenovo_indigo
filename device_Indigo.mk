@@ -21,8 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     touch.enable=1
 
 # Screen size for boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_WIDTH := 1280
+TARGET_SCREEN_HEIGHT := 720
 
 # Define screen size for prebuilt apps
 PRODUCT_AAPT_CONFIG := xlarge
